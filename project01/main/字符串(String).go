@@ -10,6 +10,7 @@ func main() {
 	var str = "hhhhhllll"
 	fmt.Println( strings.Contains(str,"hhhh"))
 	var flag = true
+	
 	fmt.Println(flag)
 
 }
