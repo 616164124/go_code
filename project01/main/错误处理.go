@@ -1,6 +1,5 @@
 package main
 
-//TODO
 import (
 	"errors"
 	"fmt"
