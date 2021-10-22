@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<br lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../static/js/jquery-3.5.1.min.js"></script>
+    <title>Document</title>
+</head>
+<br></br>
+<form action="/user/doAdd" method="POST">
+    ID<input type="text" name="id"> <br></br>
+    用户名<input type="text" name="username"> <br></br>
+    密码<input type="password" name="password"> <br></br>
+    <input type="submit" value="提交">
+</form>
+<br></br>
+<p id='one'>1111111</p>
+<button onclick="anniu()">删除11111</button>
+
+</body>
+<script>
+    
+    anniu = () => {
+        console.log(11111);
+        $("#one").remove();
+    }
+
+
+</script>
+
+</html>
