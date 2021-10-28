@@ -13,10 +13,15 @@ import (
 */
 func test(){
 	for i := 0 ;i<200 ; i++{
-		fmt.Println("你好，kk--" ,i )
+		fmt.Println("test，kk--" ,i )
 		time.Sleep(time.Millisecond *1)
 	}
 
+}
+func test1(){
+	for i:=0;i<200;i++{
+		fmt.Println("123")
+	}
 }
 
 func main(){

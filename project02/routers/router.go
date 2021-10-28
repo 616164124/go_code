@@ -26,4 +26,5 @@ func init() {
 	//Xml
 	beego.Router("/goods/xml", &controllers.GoodsController{}, "post:Xml")
 	//crud
+
 }

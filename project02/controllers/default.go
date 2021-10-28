@@ -24,7 +24,7 @@ func (c *MainController) Get() {
 func (c *Index3Controller) Get() {
 	c.Data["Website"] = "beego.me"
 	c.Data["Email"] = "astaxie@gmail.com"
-	c.Ctx.WriteString("你好！！！！")
+	// c.Ctx.WriteString("你好！！！！")
 
 	c.TplName = "index3.html"
 	
